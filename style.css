@@ -32,6 +32,6 @@ body {
     border-width: 1px;
     border-color: red;
     border-top: dashed;
-    border-top-width: 15px;
+    border-top-width: 10px;
     border-top-color: aqua;
 }
