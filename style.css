@@ -31,7 +31,7 @@ body {
     border: 5px solid;
     border-width: 3px;
     border-color: red;
-    border-top: dashed;
+    border-top: solid;
     border-top-width: 10px;
     border-top-color: blue;
 }
