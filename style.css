@@ -19,6 +19,18 @@ body {
     box-shadow: 4px 4px 14px 10px gray;
 }
 
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
 .info p {
     color: #86898f;
     margin: 0;
@@ -128,4 +140,17 @@ body {
 .row>.form-group {
     width: 50%;
     margin-right: 20px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
