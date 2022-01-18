@@ -48,14 +48,11 @@ body {
     background-color: bisque;
     padding: 10px;
     border: 5px solid;
-    border-width: 3px;
-    border-color: blue;
-    border-top: solid;
-    border-top-width: 10px;
-    border-top-color: blue;
+    border-width: 1px;
+    border-color: black;
 }
 
-.boxmodel>div {
+.box-model>div {
     float: left;
     background: black;
     height: 200px;
@@ -144,7 +141,7 @@ body {
     margin-right: 20px;
 }
 
-.btn {
+.btn1 {
     background-color: black;
     color: white;
     padding: 15px 20px;
@@ -153,7 +150,7 @@ body {
     cursor: pointer;
 }
 
-.btn:hover {
+.btn1:hover {
     opacity: 0.8;
 }
 
