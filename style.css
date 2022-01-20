@@ -170,3 +170,8 @@ body {
     height: 50px;
     background-color: lightcoral;
 }
+
+.extLink {
+    padding: 10px;
+    font-size: 12pt;
+}
