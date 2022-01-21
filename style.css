@@ -18,7 +18,7 @@ body {
     display: flex;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .info {
         text-align: center;
         display: block;
@@ -40,8 +40,10 @@ body {
 }
 
 .container {
-    max-width: 750px;
+    max-width: 700px;
     margin: auto;
+    border-color: aqua;
+    border-width: 1px;
 }
 
 .social {
@@ -174,4 +176,13 @@ body {
 .extLink {
     padding: 10px;
     font-size: 12pt;
+}
+
+
+/* Style the header */
+
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
 }
