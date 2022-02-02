@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+.body {
     background-color: #f1f1f1;
     color: #0f141e;
     font-weight: bold;
     font-size: 16px;
     font-weight: normal;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
 }
 
 .imgiugulava {
@@ -40,10 +40,7 @@ body {
 }
 
 .container {
-    max-width: 700px;
-    margin: auto;
-    border-color: aqua;
-    border-width: 1px;
+    max-width: 800px;
 }
 
 .social {
@@ -90,14 +87,29 @@ body {
     margin-bottom: 10px;
 }
 
-.table {
-    width: 100%;
+.myTable {
+    border-collapse: collapse;
+    */ max-width: 700px;
+    */ margin: auto;
+    */
 }
 
-.table td:nth-child(2),
-.table td:nth-child(3),
-.table td:nth-child(4) {
-    color: gray;
+th {
+    background: #ccc;
+}
+
+th,
+td {
+    border: 1px solid rgb(128, 126, 126);
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background: #bbafaf;
+}
+
+tr:hover {
+    background: #d1d1d1;
 }
 
 
@@ -185,4 +197,8 @@ body {
     padding: 10px 16px;
     background: #555;
     color: #f1f1f1;
+}
+
+.nav {
+    margin: 10px;
 }

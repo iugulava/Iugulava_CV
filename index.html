@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="projectsJson.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Irakli Ugulava CV</title>
 </head>
 
 <body>
-    <div class="container">
+    <nav class="container">
         <ul class="nav nav-pills">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Cv</a>
@@ -22,9 +23,10 @@
                 <a class="nav-link" href="projects.html">Projects</a>
             </li>
         </ul>
+    </nav>
 
 
-
+    <div class="container">
         <div class="info">
             <img src=./Photos/me_2020.jpg alt="Irakli Ugulava 2020" class="imgiugulava"></td>
             <div class="info-text">
@@ -35,104 +37,106 @@
             </div>
         </div>
 
-        <p>
-            <div class="card bg-yellow">
 
-                <h3>Key qualifications: </h3>
-                <ul>
-                    <li>Over 20 years experience in GIS, including but not limited to: spatial database design, GIS analysis, cartography, map editing, web mapping, GIS scripting and plugin engineering, geodesy, land cadaster, 3D mapping.</li>
-                    <li>Managed and leaded over 100 projects in urban planning, survey and planning for recreation parks, tourism guides and maps, pipeline survey and mapping, created database for cultural monuments’ protection, created GPS navigation as
-                        well as dozens of custom maps for Garmin negation system. 15 years partnership with Garmin Electronics, reseller in Georgia.</li>
-                    <li>Over 10 years in GIS tutoring and consulting, including numerous projects for USAID, Embassy of the United States to Georgia, National Center for Disease Control, KfW, Ministry of Defense of Georgia, Adventure Tourism School and many
-                        more.
-                    </li>
-                    <li>Associated professor of GIS at Ilia State University, Georgia</li>
-                </ul>
-            </div>
-            <div class="card bg-red">
-                <h3>Social networking </h3>
-                <ul>
-                    <li><a href="https://geoland.ge" target="_blank">Geoland Ltd.</a></li>
-                    <li><a href="https://www.instagram.com/iugulava/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.facebook.com/irakli.ugulava/" target="_blank">Facebook</a></li>
-                    <li><a href="https://www.youtube.com/user/iugulava/featured" target="_blank">Youtube</a></li>
-                    <li><a href="https://t.me/Iu973" target="_blank">Telegram</a></li>
-                </ul>
-            </div>
-            <div class="card bg-green">
-                <h3>Professional Experience</h3>
-                <table class="table">
-                    <tr>
-                        <th>Company</th>
-                        <th>Position</th>
-                        <th>Description</th>
-                        <th>Date</th>
-                    </tr>
-                    <tr>
-                        <td>Geoland Ltd</td>
-                        <td>Partner / Senior GIS Expert</td>
-                        <td>Manage a team of 15 staff GIS specialists Manage and overlook all GIS projects in the company, trained and coached more than 50 GIS specialists. Responsible for organization of workflow, projects management, capacity building within
-                            the staff, tutoring, quality control, management of databases</td>
-                        <td>2003- to present</td>
-                    </tr>
-                    <tr>
-                        <td>Ilia University</td>
-                        <td>Associated Professor of GIS</td>
-                        <td>Advanced GIS course for PhD students; Introductory and basics course of GIS and Spatial Planning for undergraduate students.
-                        </td>
-                        <td>2008 - present</td>
-                    </tr>
-                    <tr>
-                        <td>Dzelkva</td>
-                        <td>GIS Expert</td>
-                        <td>Geographical database management</td>
-                        <td>2002- 2004</td>
-                    </tr>
-                    <tr>
-                        <td>Geographic Ltd</td>
-                        <td>GIS Expert, Lecturer</td>
-                        <td>Geographical database management GIS projects manager GIS tutor and trainer
-                        </td>
-                        <td>1998 - 2002</td>
-                    </tr>
-                    <tr>
-                        <td>TLMTC (Tbilisi Land Management Training Centre)</td>
-                        <td>GIS tutor</td>
-                        <td>GIS tutor and trainer</td>
-                        <td>Mar. 2001 - Nov.2002</td>
-                    </tr>
-                    <tr>
-                        <td>Rescue Service of Georgia </td>
-                        <td>GIS expert</td>
-                        <td>Information systems of rescue Services of Southern Caucasus Countries for Improvement of tourists’ security</td>
-                        <td>March 2001 – Nov. 2001</td>
-                    </tr>
-                    <tr>
-                        <td>Joint project of the Ministry of Urbanization and Construction of Georgia and GTZ (Germany) </td>
-                        <td>Project Manager</td>
-                        <td>Geo Information System of Disaster Management and Response </td>
-                        <td>Feb. 2002 – Sept. 2002 </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="card bg-yellow">
-                <h3>Hobbies</h3>
-                <ul class="link-list">
-                    <li>Mountain Climber</li>
-                    <li>Cycling</li>
-                    <li>Skitouring</li>
-                    <li>Cooking</li>
-                    <li>Billiards</li>
-                    <li>Dogs</li>
-                </ul>
-            </div>
+        <div class="card bg-yellow">
+
+            <h3>Key qualifications: </h3>
+            <ul>
+                <li>Over 20 years experience in GIS, including but not limited to: spatial database design, GIS analysis, cartography, map editing, web mapping, GIS scripting and plugin engineering, geodesy, land cadaster, 3D mapping.</li>
+                <li>Managed and leaded over 100 projects in urban planning, survey and planning for recreation parks, tourism guides and maps, pipeline survey and mapping, created database for cultural monuments’ protection, created GPS navigation as well
+                    as dozens of custom maps for Garmin negation system. 15 years partnership with Garmin Electronics, reseller in Georgia.</li>
+                <li>Over 10 years in GIS tutoring and consulting, including numerous projects for USAID, Embassy of the United States to Georgia, National Center for Disease Control, KfW, Ministry of Defense of Georgia, Adventure Tourism School and many more.
+                </li>
+                <li>Associated professor of GIS at Ilia State University, Georgia</li>
+            </ul>
+        </div>
+        <div class="card bg-red">
+            <h3>Social networking </h3>
+            <ul>
+                <li><a href="https://geoland.ge" target="_blank">Geoland Ltd.</a></li>
+                <li><a href="https://www.instagram.com/iugulava/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/irakli.ugulava/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/user/iugulava/featured" target="_blank">Youtube</a></li>
+                <li><a href="https://t.me/Iu973" target="_blank">Telegram</a></li>
+            </ul>
+        </div>
+        <div class="card bg-green">
+            <h3>Professional Experience</h3>
+            <table class="table">
+                <tr>
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Description</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>Geoland Ltd</td>
+                    <td>Partner / Senior GIS Expert</td>
+                    <td>Manage a team of 15 staff GIS specialists Manage and overlook all GIS projects in the company, trained and coached more than 50 GIS specialists. Responsible for organization of workflow, projects management, capacity building within
+                        the staff, tutoring, quality control, management of databases</td>
+                    <td>2003- to present</td>
+                </tr>
+                <tr>
+                    <td>Ilia University</td>
+                    <td>Associated Professor of GIS</td>
+                    <td>Advanced GIS course for PhD students; Introductory and basics course of GIS and Spatial Planning for undergraduate students.
+                    </td>
+                    <td>2008 - present</td>
+                </tr>
+                <tr>
+                    <td>Dzelkva</td>
+                    <td>GIS Expert</td>
+                    <td>Geographical database management</td>
+                    <td>2002- 2004</td>
+                </tr>
+                <tr>
+                    <td>Geographic Ltd</td>
+                    <td>GIS Expert, Lecturer</td>
+                    <td>Geographical database management GIS projects manager GIS tutor and trainer
+                    </td>
+                    <td>1998 - 2002</td>
+                </tr>
+                <tr>
+                    <td>TLMTC (Tbilisi Land Management Training Centre)</td>
+                    <td>GIS tutor</td>
+                    <td>GIS tutor and trainer</td>
+                    <td>Mar. 2001 - Nov.2002</td>
+                </tr>
+                <tr>
+                    <td>Rescue Service of Georgia </td>
+                    <td>GIS expert</td>
+                    <td>Information systems of rescue Services of Southern Caucasus Countries for Improvement of tourists’ security</td>
+                    <td>March 2001 – Nov. 2001</td>
+                </tr>
+                <tr>
+                    <td>Joint project of the Ministry of Urbanization and Construction of Georgia and GTZ (Germany) </td>
+                    <td>Project Manager</td>
+                    <td>Geo Information System of Disaster Management and Response </td>
+                    <td>Feb. 2002 – Sept. 2002 </td>
+                </tr>
+            </table>
+        </div>
+        <div class="card bg-yellow">
+            <h3>Hobbies</h3>
+            <ul class="link-list">
+                <li>Mountain Climber</li>
+                <li>Cycling</li>
+                <li>Skitouring</li>
+                <li>Cooking</li>
+                <li>Billiards</li>
+                <li>Dogs</li>
+            </ul>
+        </div>
         </p>
         <a class="extLink" href="projects.html" target="_blank">Implemented projects</a>
         <a class="extLink" href="motivation.html" target="_blank">About me</a>
+    </div>
 
-
-        <script src="Script.js"></script>
-
+    <script src="Script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </body>
 
